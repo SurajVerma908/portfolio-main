@@ -1,0 +1,23 @@
+[
+  {
+    "id": "superadmin",
+    "username": "admin",
+    "name": "Super Admin",
+    "role": "superadmin",
+    "password": "surya-admin"
+  },
+  {
+    "id": "c91a76d1-39b8-4b8f-b7b2-4354285285e5",
+    "username": "suraj",
+    "name": "suraj",
+    "role": "admin",
+    "password": "suraj"
+  },
+  {
+    "id": "297e8be2-0824-4420-ba3c-38755e55645a",
+    "username": "surya",
+    "name": "surya",
+    "role": "staff",
+    "password": "surya"
+  }
+]

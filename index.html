@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Surya Dev Prasad Kurmi — CEO of Trikabi Academy & Info Tech Solution. Building what matters at the intersection of education and technology." />
+    <meta name="theme-color" content="#0a0a0c" />
+    <style>
+      /* first-paint preloader shell — no flash of unstyled content */
+      #boot-veil{position:fixed;inset:0;z-index:9999;background:#0a0a0c;display:flex;align-items:center;justify-content:center;transition:opacity .7s ease,visibility .7s}
+      #boot-veil span{font:500 .7rem 'DM Mono',monospace;letter-spacing:.35em;color:#d8b26a;animation:bootPulse 1.2s ease-in-out infinite}
+      @keyframes bootPulse{0%,100%{opacity:.35}50%{opacity:1}}
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet" />
+    <title>Surya Dev Prasad Kurmi | CEO</title>
+  </head>
+  <body>
+    <div id="boot-veil"><span>SD — ENTERING</span></div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>window.addEventListener('load',()=>{const v=document.getElementById('boot-veil');if(v){v.style.opacity='0';setTimeout(()=>v.remove(),800)}})</script>
+  </body>
+</html>
