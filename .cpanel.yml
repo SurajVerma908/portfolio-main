@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/trikabii/portfolio-main/
+    - /bin/cp -R images $DEPLOYPATH
